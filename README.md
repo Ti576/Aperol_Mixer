@@ -23,13 +23,13 @@ BoM:
 
 * Random wires and resistors
 
-* MOSFETS to drive the motor.  I used IRF3205s
+* 3 MOSFETS to drive the motors.  I used IRF3205s
 
 * 12v Power supply and matching plug socket
 
 * A suitable block of wood for the base
 
-* A glitter ball!  Bear in mind that you'll be using it upside down so you don't want a vase or anything with a flat base as it'll look wierd.  I ended up using on intended as a hanging basket.
+* A glitter ball!  Bear in mind that you'll be using it upside down so you don't want a vase or anything with a flat base as it'll look wierd.  I ended up using one intended as a hanging basket.
 
 * A bicycle spoke or similar stiff wire
 
