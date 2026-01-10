@@ -17,7 +17,7 @@ BoM:
 
 *Rotary encoder.  Mine was out of a BMW M5, funnily enough.
 
-*Load cell to detect if there is a glass in place to catch the aperol.  I used a 750g one, you might need to change this if you are using huge glasses and delivering pints of cocktail
+*Load cell to detect if there is a glass in place to catch the aperol.  I used a 750g one, you might need to change this if you are using huge glasses and delivering pints of cocktail.  The code assumes you are using an HX711 based loadcell.
 
 *A reasonable amount of 3d printer filament
 
