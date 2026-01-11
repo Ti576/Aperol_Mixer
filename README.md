@@ -73,8 +73,27 @@ PipeInlet.scad and PipeOutlet.scad -  Do what they say on the tin, these can be 
 
 PipeHolder.scad - This can be supported by a bicycle spoke or other stiff wire to hold the end of the outlet pipes over the glass.
 
-## Adruino Wiring
+## Wiring
 
-The wiring for the arduino should be as specified in the arduino code but for reference:
+The wiring for the arduino is obvioulsy in the arduino code so this should be altered if you want to change pin assignments.
+
+A5 = I2C LCD SDA(grey)
+A4 = I2C LCD SCL (purple)
+I2C LCD Ground - Gnd (black)
+I2C LCD VCC - 5v (White)
+
+Rotary Encoder pin 1 ground (Brown)
+pin 2 to ground (switch feed)
+1 = Rotary Encoder 3 (Button)
+2 = Rotary Encoder 4 (rotary 2)
+3 = Rotary Encoder 5 (rotary 2)
+Rotary encoder 6 +5v
+
+4 = Aperol Pump Control
+5 = Prosecco Pump Control
+6 = Lemonade Pump Control
+
+12 = Glass detection strain gauge DT
+13 = Glass detection strain gauge SCK
 
 
