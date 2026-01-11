@@ -59,8 +59,10 @@ I routed out the circular recess on the base for the glass stand to fit into, th
 2. The base and motor holder:
 
 BaseStand.scad - This screws to the base and the cylinderical base fits over it.  If I get round to a version 2, I'd notch it to allow the USB to be plugged to in the arduino more easily.  If you look on the pictures I've done this with a dremel on the orginal.  You might need to play with tolerances to get it to fit tightly but not too tightly inside the base.
+![The mixer](https://github.com/Ti576/Aperol_Mixer/blob/main/images/IMG_4399.jpeg)
 
 DrinkDispenserBase.scad - This is the main cylinderical base.  The diameter will need to be adjusted to match the glitter ball you're using.  There is a ridge of the outside to support the glitter ball and one on the inside to support the motor mount
+![The mixer](https://github.com/Ti576/Aperol_Mixer/blob/main/images/IMG_4398.jpeg)
 
 DrinkDispenserMotorMount.scad - The motors sit in this, there are labels to identify each motor.  Again, you'll need to alter the dimensions as appropriate.  I printed this in TPU to get a bit of grip on the motors, not sure if it was needed.
 
