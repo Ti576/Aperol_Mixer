@@ -87,24 +87,24 @@ I2C LCD SCL to A4
 I2C LCD Ground to Gnd  
 I2C LCD VCC to 5v  
 
-Rotary Encoder:
-Pin 1 (Ground) to Gnd
-Pin 2 (Button 1) to Gnd
-Pin 3 (Button 2) to D1
-Pin 4 (rotary 1) to D2
-Pin 5 (rotary 2) to D3
-Pin 6 (VCC) to 5v
+Rotary Encoder:  
+Pin 1 (Ground) to Gnd  
+Pin 2 (Button 1) to Gnd  
+Pin 3 (Button 2) to D1  
+Pin 4 (rotary 1) to D2  
+Pin 5 (rotary 2) to D3  
+Pin 6 (VCC) to 5v  
 My rotary encoder needed a number of pull down resistors, look at the data sheet for the one you are using.
 
-Strain Gauge
-Glass detection strain gauge DT to D12
-Glass detection strain gauge SCK to D13
-VCC to 5v
-Gnd to Gnd
+Strain Gauge:  
+Glass detection strain gauge DT to D12  
+Glass detection strain gauge SCK to D13  
+VCC to 5v  
+Gnd to Gnd  
 
-Motor Control Pins connect to MOSFET gate pins
-Aperol Pump Control to D4
-Prosecco Pump Control to D5
-Lemonade Pump Control to D6
+Motor Control Pins connect to MOSFET gate pins:
+Aperol Pump Control to D4  
+Prosecco Pump Control to D5  
+Lemonade Pump Control to D6  
 
 The motor +ves shoould be wired to 12v and the ground via the MOSFET drain pin.
