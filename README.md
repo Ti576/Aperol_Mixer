@@ -24,7 +24,9 @@ BoM:
 
 * A reasonable amount of 3d printer filament
 
-* Random wires and resistors
+* Inserts and screws for the 3d prints
+
+* Random wires, flyback diodes for the motors and resistors
 
 * 3 MOSFETS to drive the motors.  I used IRF3205s
 
@@ -40,5 +42,15 @@ BoM:
 
 Stream of conciousness 'instructions':
 
+The CAD files are in the 'OpenSCAD' folder.  You will need to open them in OpenSCAD, make any changes (hopefully the files are reasonably self documenting) then export them as stls at which point you con import them into your favourite slicing program.
+
+The files can be divided into 3 main areas:
+
+1. The glass stand:
+![The glass stand](https://github.com/Ti576/Aperol_Mixer/blob/main/images/IMG_4397.jpeg)
+This is made up of one each of DrinkDispenserGlassStand.scad and DrinkDispenserGlassStand2.scad.  The GlassStand2 file has a second circle to stop small glasses toppling over.  The strain gauge can then be attached between the two.  I routed out the circular recess on the base for the glass stand to fit into, the file RouterTemplate.scad allows you to print a template to guide the router, you may need to do some maths to allow for your chosen glass stand diameter, router bush diameter and router cutter diameter.  That is left as an excercise for the reader.  Alternatively I suppose you could use two thicknesses of ply and use a hole saw to cut an appropriate sixe hole in the top one before glueing them togther.
+
+
+2. 
 
 
