@@ -102,7 +102,7 @@ Glass detection strain gauge SCK to D13
 VCC to 5v  
 Gnd to Gnd  
 
-Motor Control Pins connect to MOSFET gate pins:
+Motor Control Pins connect to MOSFET gate pins:  
 Aperol Pump Control to D4  
 Prosecco Pump Control to D5  
 Lemonade Pump Control to D6  
