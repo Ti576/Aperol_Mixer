@@ -75,25 +75,36 @@ PipeHolder.scad - This can be supported by a bicycle spoke or other stiff wire t
 
 ## Wiring
 
-The wiring for the arduino is obvioulsy in the arduino code so this should be altered if you want to change pin assignments.
+The wiring for the arduino is obviously in the arduino code so this should be altered if you want to change pin assignments.
 
-A5 = I2C LCD SDA(grey)
-A4 = I2C LCD SCL (purple)
-I2C LCD Ground - Gnd (black)
-I2C LCD VCC - 5v (White)
+Arduino Power:
+12v input to VIn
+Ground to Gnd
 
-Rotary Encoder pin 1 ground (Brown)
-pin 2 to ground (switch feed)
-1 = Rotary Encoder 3 (Button)
-2 = Rotary Encoder 4 (rotary 2)
-3 = Rotary Encoder 5 (rotary 2)
-Rotary encoder 6 +5v
+LCD Display:
+I2C LCD SDA to A5
+I2C LCD SCL to A4
+I2C LCD Ground to Gnd
+I2C LCD VCC to 5v
 
-4 = Aperol Pump Control
-5 = Prosecco Pump Control
-6 = Lemonade Pump Control
+Rotary Encoder:
+Pin 1 (Ground) to Gnd
+Pin 2 (Button 1) to Gnd
+Pin 3 (Button 2) to D1
+Pin 4 (rotary 1) to D2
+Pin 5 (rotary 2) to D3
+Pin 6 (VCC) to 5v
+My rotary encoder needed a number of pull down resistors, look at the data sheet for the one you are using.
 
-12 = Glass detection strain gauge DT
-13 = Glass detection strain gauge SCK
+Strain Gauge
+Glass detection strain gauge DT to D12
+Glass detection strain gauge SCK to D13
+VCC to 5v
+Gnd to Gnd
 
+Motor Control Pins connect to MOSFET gate pins
+Aperol Pump Control to D4
+Prosecco Pump Control to D5
+Lemonade Pump Control to D6
 
+The motor +ves shoould be wired to 12v and the ground via the MOSFET drain pin.
