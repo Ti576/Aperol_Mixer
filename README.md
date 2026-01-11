@@ -1,5 +1,7 @@
 # Aperol_Mixer
 The Instagram Famous Aperol Mixer
+![The mixer](https://github.com/Ti576/Aperol_Mixer/blob/main/IMG_4396.jpeg)
+
 
 You're probably here from following the link on kate_ivy_peace's instagram showing the Aperol dispenser I made her https://www.instagram.com/kate_ivy_peace/reel/DRjfJR4iDU8/
 
