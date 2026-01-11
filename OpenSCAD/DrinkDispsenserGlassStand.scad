@@ -44,12 +44,6 @@ difference(){
     translate([-SecondBeamThickness/2,-BaseID/2+2,0])
     cube([SecondBeamThickness,BaseID-4,HolderThickness]);
 
-    //Second circle
-    difference(){
-           cylinder(HolderThickness,r=BaseID/4+SecondCircleThickness);
-           translate([0,0,-0.1])
-           cylinder(HolderThickness+1,r=BaseID/4);
-    }
 
 }
 //ScrewHoles and countersinks
