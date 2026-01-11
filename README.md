@@ -8,7 +8,7 @@ You're probably here from following the link on kate_ivy_peace's instagram showi
 
 The following are some fairly rubbish instructions on how to make yourself a version of this wonderful device.
 
-BoM:
+# BoM:
 
 * 3 diaphragm pumps.  This is the basis of the whole thing.  The diameter of the pumps you use will drive the size of everything elseI used these but others are available - https://www.aliexpress.com/item/1005008389360033.html?algo_exp_id=38f3a638-18dc-47c7-ad9f-794de28863fa-1&pdp_ext_f=%7B%22order%22%3A%2255%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008389360033%7C_p_origin_prod%3A
 
@@ -40,7 +40,9 @@ BoM:
 
 * Food safe silicone hose, mine was 6mm id but it needs to suit your pumps
 
-Stream of conciousness 'instructions':
+# Stream of conciousness 'instructions':
+
+## CAD Files
 
 The CAD files are in the 'OpenSCAD' folder.  You will need to open them in OpenSCAD, make any changes (hopefully the files are reasonably self documenting) then export them as stls at which point you con import them into your favourite slicing program.
 
