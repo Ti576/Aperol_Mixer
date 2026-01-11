@@ -111,3 +111,13 @@ Lemonade Pump Control to D6
 
 The motor +ves should be wired to 12v and the ground via the MOSFET drain pin along the lines of:
 ![MOSFET Wiring](https://europe1.discourse-cdn.com/arduino/optimized/4X/4/e/6/4e6ed00a48e51eaa05c1c7201d19b298c6631c0d_2_1024x560.png)
+
+## Arduino Program
+
+The Arduino code is in the 'arduino' folder, if you are a programmer then please let me know if I've made any catatsrophic errors.  
+
+You will need a number of libraries installed for the code to compile:
+* HX711 by Bogdan Necula
+* LCD I2C by Frank Hafele
+* Encoder by Paul Stoffregen
+* Wire library that should be built in to the arduino IDE
