@@ -77,15 +77,15 @@ PipeHolder.scad - This can be supported by a bicycle spoke or other stiff wire t
 
 The wiring for the arduino is obviously in the arduino code so this should be altered if you want to change pin assignments.
 
-Arduino Power:
-12v input to VIn
-Ground to Gnd
+Arduino Power:  
+12v input to VIn  
+Ground to Gnd  
 
-LCD Display:
-I2C LCD SDA to A5
-I2C LCD SCL to A4
-I2C LCD Ground to Gnd
-I2C LCD VCC to 5v
+LCD Display:  
+I2C LCD SDA to A5  
+I2C LCD SCL to A4  
+I2C LCD Ground to Gnd  
+I2C LCD VCC to 5v  
 
 Rotary Encoder:
 Pin 1 (Ground) to Gnd
