@@ -50,7 +50,7 @@ The files can be divided into 3 main areas:
 ![The glass stand](https://github.com/Ti576/Aperol_Mixer/blob/main/images/IMG_4397.jpeg)
 This is made up of one each of DrinkDispenserGlassStand.scad and DrinkDispenserGlassStand2.scad.  The GlassStand2 file has a second circle to stop small glasses toppling over.  The strain gauge can then be attached between the two.
 
-I routed out the circular recess on the base for the glass stand to fit into, the file RouterTemplate.scad allows you to print a template to guide the router, you may need to do some maths to allow for your chosen glass stand diameter, router bush diameter and router cutter diameter.  That is left as an excercise for the reader.  Alternatively I suppose you could use two thicknesses of ply and use a hole saw to cut an appropriate sixe hole in the top one before glueing them togther.
+I routed out the circular recess on the base for the glass stand to fit into, the file RouterTemplate.scad allows you to print a template to guide the router, you may need to do some maths to allow for your chosen glass stand diameter, router bush diameter and router cutter diameter.  That is left as an excercise for the reader.  Alternatively I suppose you could use two thicknesses of ply and use a hole saw to cut an appropriate size hole in the top one before glueing them togther.
 
 
 3. 
