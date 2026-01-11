@@ -28,7 +28,7 @@ const int Aperol = 2;
 const int Prosecco = 6;
 const int Lemonade = 2;
 
-//Calibration for pump performance.  1 pump pumps 400ml in 15 seconds -> 25ml/s ish
+//Calibration for pump performance.  1 pump pumps 570ml in 15 seconds -> 38ml/s ish
 unsigned int PumpRate = 38; //ml/s
 unsigned long Time_Factor = 1000/((Aperol + Lemonade + Prosecco) * PumpRate);
 
