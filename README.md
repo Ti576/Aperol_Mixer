@@ -67,10 +67,14 @@ DrinkDispenserMotorMount.scad - The motors sit in this, there are labels to iden
 
 3. The fittings for the glitter ball.  You will need to drill/cut holes in the glitter ball to let pipes and wires in and out:
 
-DisplayHolder V2.scad - The holder for the display and rotary encoder.  Again, you'll need to adjust dimensions and the curvature of the cutout for the glitterball.  There are fittings for threaded inserts to retain the display and to screw the display holder onto the glitterball.
-
+DisplayHolder V2.scad - The holder for the display and rotary encoder.  Again, you'll need to adjust dimensions and the curvature of the cutout for the glitterball.  There are fittings for threaded inserts to retain the display and to screw the display holder onto the glitterball.  The file 'DisplayHolder Jig.scad' can be used as a jig to dril the mounting holes in the glitterball as you can't drill from the inside of the glitterball (or I couldn't!)
+ 
 PipeInlet.scad and PipeOutlet.scad -  Do what they say on the tin, these can be glued on to the glitter ball after you've cut suitable holes for the pipes.  The Pipeinlet has letters to identify what tube goes into what drink
 
+PipeHolder.scad - This can be supported by a bicycle spoke or other stiff wire to hold the end of the outlet pipes over the glass.
 
+## Adruino Wiring
+
+The wiring for the arduino should be as specified in the arduino code but for reference:
 
 
